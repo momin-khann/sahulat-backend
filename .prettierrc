@@ -1,0 +1,9 @@
+{
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "semi": true,
+  "singleQuote": false,
+  "printWidth": 85,
+  "tabWidth": 2,
+  "embeddedLanguageFormatting": "auto"
+}
