@@ -1,10 +1,10 @@
 import { User } from "../models/user.model.js";
 import bcryptjs from "bcryptjs";
-import { asyncHandler } from "../utils/asyncHandler.js";
-import { ApiError } from "../utils/ApiError.js";
-import { ApiResponse } from "../utils/ApiResponse.js";
+import { asyncHandler } from "../../utils/asyncHandler.js";
+import { ApiError } from "../../utils/ApiError.js";
+import { ApiResponse } from "../../utils/ApiResponse.js";
 import jwt from "jsonwebtoken";
-import { ONE_DAY, ONE_HOUR, TEN_MINUTES } from "../utils/helper.js";
+import { ONE_DAY, ONE_HOUR, TEN_MINUTES } from "../../utils/helper.js";
 
 export const signup = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
